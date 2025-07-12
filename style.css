@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', sans-serif;
+  margin-top: 50px;
+  background-color: #fef9f2;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ff6f61;
+  margin-bottom: 30px;
+}
+
+#buttons button {
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffd3b6;
+  color: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#buttons button:hover {
+  background-color: #ffaaa5;
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #444;
+}
