@@ -1,6 +1,8 @@
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #fceabb, #f8b500);
+  background-image: url('background.jpg'); /* ←ここが画像！ */
+  background-size: cover;
+  background-position: center;
   color: #333;
   text-align: center;
   padding: 30px;
