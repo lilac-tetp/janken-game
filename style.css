@@ -55,3 +55,48 @@ h1 {
     font-size: 16px;
   }
 }
+/* モバイル対応（レスポンシブデザイン）用のCSSを追加 */
+
+/* 基本のスタイル（すでにある内容） */
+body {
+  font-family: 'Arial', sans-serif; /* フォントをArialに指定 */
+  background-image: url('background.jpg'); /* 背景画像を指定 */
+  background-size: cover; /* 画面に背景をフィットさせる */
+  background-position: center; /* 背景画像の位置を中央に */
+  color: #333; /* テキストの色 */
+  text-align: center; /* テキストを中央揃えに */
+  padding: 30px; /* 余白を設定 */
+}
+
+button {
+  font-size: 20px; /* ボタンの文字サイズ */
+  padding: 12px 24px; /* ボタンの内側の余白 */
+  margin: 10px; /* ボタン同士の間隔 */
+  border-radius: 30px; /* 角を丸く */
+  border: none; /* 枠線なし */
+  background-color: #ff66a5; /* 背景色（ピンク） */
+  color: white; /* 文字の色 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 影をつける */
+  transition: 0.3s; /* なめらかな変化の時間 */
+}
+
+/* スマホ画面向けのスタイルを追加 */
+@media (max-width: 600px) {
+  body {
+    padding: 15px; /* モバイルでは余白を小さめに */
+  }
+
+  button {
+    font-size: 18px; /* ボタンの文字を少し小さく */
+    padding: 10px 16px; /* 内側の余白も小さく */
+    margin: 8px; /* 間隔も少し小さく */
+  }
+
+  h1 {
+    font-size: 28px; /* 見出しも縮小 */
+  }
+
+  #score, #result {
+    font-size: 16px; /* スコアや結果の文字サイズも小さく */
+  }
+}
