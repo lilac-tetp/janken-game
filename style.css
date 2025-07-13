@@ -100,3 +100,31 @@ button {
     font-size: 16px; /* スコアや結果の文字サイズも小さく */
   }
 }
+/* ===== レスポンシブデザインのスタイルをここから追加 ===== */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px; /* タイトルを少し小さくする */
+    padding: 10px 0;
+  }
+
+  button {
+    font-size: 16px; /* ボタンの文字サイズを小さく */
+    padding: 10px 20px; /* パディングを少し減らす */
+    margin: 8px 5px; /* 余白を小さく */
+    border-radius: 20px;
+  }
+
+  #score {
+    font-size: 16px; /* スコアの文字サイズ調整 */
+    margin-top: 20px;
+  }
+
+  #result {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  body {
+    padding: 15px; /* 画面端との余白を少し減らす */
+  }
+}
