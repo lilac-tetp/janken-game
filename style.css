@@ -34,3 +34,24 @@ button:hover {
   margin-top: 20px;
 }
 
+h1 {
+  color: navy; /* 濃い青など背景に映える色に変更 */
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px white;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    width: 80%;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  #score, #result {
+    font-size: 16px;
+  }
+}
