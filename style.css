@@ -1,17 +1,13 @@
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  /* その他の設定はそのままでOK */
-}
-
+  font-family: 'Arial', sans-serif;
   background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;  /* ← これを追加！ */
-  margin: 0;          /* ← これも追加すると全体に広がります */
   color: #333;
   text-align: center;
-  padding: 30px;
+  padding: 30px; /* ← ここにコメント追加するだけでもOK！ */
+}
+
 }
 
 
