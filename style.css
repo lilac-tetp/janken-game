@@ -1,5 +1,8 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* その他の設定はそのままでOK */
+}
+
   background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
@@ -13,20 +16,22 @@ body {
 
 
 button {
-  font-size: 24px;
-  padding: 10px 20px;
+  font-size: 20px;
+  padding: 12px 24px;
   margin: 10px;
-  border-radius: 12px;
+  border-radius: 30px;
   border: none;
   background-color: #ff66a5;
   color: white;
-  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 button:hover {
   background-color: #ff3385;
+  transform: scale(1.05);
 }
+
 
 #result, #score {
   font-size: 20px;
