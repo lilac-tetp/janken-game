@@ -37,3 +37,8 @@ button:hover {
   font-size: 20px;
   margin-top: 20px;
 }
+h1 {
+  color: #003366;  /* ← 好きな色に変更してOK */
+  font-size: 48px;  /* サイズも大きくできます（お好みで） */
+  margin-bottom: 30px;
+}
